@@ -1,6 +1,6 @@
 # RetailPulse
 
-A full-stack stock analysis application that combines real-time market data with social media sentiment analysis and AI-powered investment recommendations.
+A stock analysis tool that shows real-time prices and what people on Reddit are saying about stocks.
 
 ## What this does
 
@@ -17,24 +17,9 @@ A full-stack stock analysis application that combines real-time market data with
 3. See the current price, Reddit posts, and AI recommendation
 4. The data updates every 10 seconds when markets are open
 
-## Features
+## Running it yourself
 
-- **Real-time Stock Data**: Live NYSE stock prices with automatic updates
-- **Social Sentiment Analysis**: Reddit post analysis using AI
-- **Investment Recommendations**: AI-powered buy/sell/hold suggestions
-- **User Authentication**: Firebase-powered login/signup system
-- **Responsive Design**: Modern dark theme UI
-- **Market Status**: Live/closed market indicators
-
-## Tech Stack
-
-- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
-- **Backend**: Next.js API routes, Firebase Auth
-- **APIs**: Alpha Vantage, Yahoo Finance, Reddit API, OpenAI GPT-4
-- **Database**: Firebase Firestore
-- **Deployment**: Vercel
-
-## Running Locally
+You'll need Node.js installed first.
 
 ```bash
 git clone <this-repo-url>
@@ -43,16 +28,19 @@ npm install
 npm run dev
 ```
 
-**Note**: You'll need to set up your own API keys in a `.env.local` file for full functionality.
+Then go to http://localhost:3000
 
-## Key Technical Achievements
+You'll need to set up your own API keys in a `.env.local` file for the stock data and AI features to work.
 
-- **Real-time Data Integration**: Implemented live stock price updates with 10-second intervals
-- **AI-Powered Analysis**: Built sentiment analysis pipeline using OpenAI GPT-4
-- **Social Media Integration**: Reddit API integration with relevance filtering
-- **User Authentication**: Complete Firebase Auth implementation with user profiles
-- **Responsive UI**: Modern dark theme with Tailwind CSS and custom components
-- **API Design**: RESTful API architecture with proper error handling
+## What it's made with
+
+- Next.js for the website
+- TypeScript for the code
+- Tailwind for styling
+- Firebase for user accounts
+- Reddit API for posts
+- OpenAI for AI recommendations
+- Alpha Vantage for stock prices
 
 ## License
 
