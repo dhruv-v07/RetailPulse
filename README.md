@@ -42,6 +42,3 @@ You'll need to set up your own API keys in a `.env.local` file for the stock dat
 - OpenAI for AI recommendations
 - Alpha Vantage for stock prices
 
-## License
-
-MIT
